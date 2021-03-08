@@ -21,10 +21,10 @@ const Navbar = () => {
       <Link className="p-2 text-dark" to="/">Home</Link>
       <Link className="p-2 text-dark" to="/create">Creats Post</Link>
       <Link className="p-2 text-dark" to="/about">About Us</Link>
-        <a className="p-2 text-dark" href="#">Support</a>
-        <a className="p-2 text-dark" href="#">Pricing</a>
+        <Link className="p-2 text-dark" href="#">Support</Link>
+        <Link className="p-2 text-dark" href="#">Pricing</Link>
       </nav>
-      <a class="btn btn-outline-primary" href="#">Sign up</a>
+      <Link class="btn btn-outline-primary" href="#">Sign up</Link>
   </header>
 
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
